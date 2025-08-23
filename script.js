@@ -3,7 +3,7 @@ const promptform = document.querySelector(".prompt-form");
 const promptInput = promptform.querySelector(".prompt-input");
 
 //API
-const API_KEY="AIzaSyAZC0hS2bfXknHZ5eg68qQNuuzf7sO0Mgk"
+const API_KEY="AIzaSyBTKsmJzZyPULp9AE4I_hYt1ltIeg9b338"
 const API_URL =`https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${API_KEY}`;
 
 let userMessage ="";
@@ -76,3 +76,4 @@ promptInput.value="";
 }
 
 promptform.addEventListener("submit",handleformsubmit);
+
