@@ -14,10 +14,14 @@
 body {
     color: aliceblue;
     background: rgb(0, 0, 18);
+    
 }
+html::-webkit-scrollbar{
+        display: none;
+       }
 
 .container {
-    padding: 32px 0 60px;
+    padding: 32px 0 120px;
 
 }
 
@@ -124,9 +128,10 @@ body {
     position: relative;
     gap: 20px;
     flex-direction: column;
-    overflow: auto;
-    height: 78vh;
-    margin-top: 3vh;
+    overflow-y: auto;
+    height: calc(100vh - 150px);
+    margin-top: 20px;
+    padding-bottom: 80px;
 
 }
 
@@ -142,8 +147,7 @@ body {
     align-self: flex-start;
     background-color: #0a0047;
     border-radius: 50%;
-   transition: transform 1s ease-in-out; 
-    
+   transition: transform 1s ease-in-out; ;
 
 }
 .charts-container .avatar {
@@ -193,9 +197,9 @@ body {
     width: 100%;
     padding: 16px 0;
     background: rgb(0, 0, 18);
+    
 
 }
-
 
 
 .prompt-container :where(.prompt-wrapper, .prompt-form, .prompt-action) {
@@ -276,5 +280,3 @@ body {
     padding: 16px 20px 0;
     color: antiquewhite;
 }
-
-
