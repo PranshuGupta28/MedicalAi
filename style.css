@@ -66,9 +66,9 @@ body {
     scrollbar-width: none;
 }
 
-.container :is(.app-header, .suggestions) {
+/* .container :is(.app-header, .suggestions) {
     display: none;
-}
+} */
 
 .suggestions-items {
     width: 228px;
@@ -126,6 +126,7 @@ body {
     flex-direction: column;
     overflow: auto;
     height: 78vh;
+     margin: 5vh;
 
 }
 
@@ -141,7 +142,8 @@ body {
     align-self: flex-start;
     background-color: #0a0047;
     border-radius: 50%;
-   transition: transform 1s ease-in-out; ;
+   transition: transform 1s ease-in-out; 
+    
 
 }
 .charts-container .avatar {
@@ -274,3 +276,4 @@ body {
     padding: 16px 20px 0;
     color: antiquewhite;
 }
+
