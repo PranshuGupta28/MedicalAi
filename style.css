@@ -126,7 +126,7 @@ body {
     flex-direction: column;
     overflow: auto;
     height: 78vh;
-     margin: 5vh;
+    margin-top: 3vh;
 
 }
 
@@ -276,4 +276,5 @@ body {
     padding: 16px 20px 0;
     color: antiquewhite;
 }
+
 
