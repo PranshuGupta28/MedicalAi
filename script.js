@@ -4,7 +4,7 @@ const promptform = document.querySelector(".prompt-form");
 const promptInput = promptform.querySelector(".prompt-input");
 
 // API Configuration
-const API_KEY = "AIzaSyBTKsmJzZyPULp9AE4I_hYt1ltIeg9b338";
+const API_KEY = "AIzaSyBl_jJJSLYAW00uz7Nn8tA0a59D2OOOqhk";
 const API_URL = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${API_KEY}`;
 
 let userMessage = "";
@@ -1310,4 +1310,5 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 // Form submit event listener
+
 promptform.addEventListener("submit", handleformsubmit);
